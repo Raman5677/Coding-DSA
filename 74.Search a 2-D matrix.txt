@@ -1,0 +1,22 @@
+class Solution:
+    def searchtheline(self,row_s, col_e,matrix,col_s,row_e,target):
+        if(matrix[row_s>row_e] or col_s>col_e or len(matrix)==0):
+            return False
+        if (matrix[row_s][col_e]==target and row_s<=row_e and col_s<=col_e):
+            #print (row_s, col_e)
+            return True
+        if (matrix[row_s][col_e]<target and row_s<=row_e and col_s<=col_e):
+            self.searchtheline(row_s+1, col_e,matrix,col_s,row_e,target)
+        if (matrix[row_s][col_e]>target and row_s<=row_e and col_s<=col_e):
+            self.searchtheline(row_s, col_e-1,matrix,col_s,row_e,target)
+        
+        
+        
+    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        row_s = 0
+        row_e = len(matrix)-1
+        col_s=0
+        col_e=len(matrix[0])-1
+        
+        self.searchtheline(row_s, col_e,matrix,col_s,row_e,target)
+        

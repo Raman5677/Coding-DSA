@@ -1,0 +1,30 @@
+In between revision is must abt previous done topics
+1. Recursion & STL for competitive coding as it help to write efficient code
+			 all topics good graps	()1week basic undersatnding is must
+2. time and space complexity  
+3. pointers and two pointers good graps
+4. oops good graps (optional in starting)
+	otherwise 
+4.1  vectors and all sorting algo with deep understanding. especially merger sorting , bubble sorting 
+   and quicksort as most important. 
+
+
+	hacker is must for any topics as discussed by the code  skool after ever topics
+ 
+5. arrays 2-d matrix                    given a month to practice and get good till and fo revision everyday. 
+					After that start with ongoing love babbar sheet of 450 question
+	(dp basic algorithm is must for clear understanding of the algorithm.)
+6. linked list
+7. 2-d linked list 
+8. heaps 
+9. stacks and queues
+10. binary tree 
+11. binary search tree 
+12. heap trees
+13. trie
+so on
+		write here about the algo u learn and want to learn
+1. one pass approach.
+
+		write here that u were ablr to solve but later u would dig deep in it 
+1. union-of-two-arrays3538-- from set --- from hash --- solved using brute force 
